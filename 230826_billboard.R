@@ -100,11 +100,11 @@ ggplot(pred_long, aes(fill = type, y = est, x = date)) +
         ) +
     labs(
         title = "<span style = 'font-family:\"Typo Grotesk\"; font-size:40pt'>billboard #1, by committee</span><br>
-        <span style = 'font-size:11pt'><br>Songwriting credits on hits
-        have changed dramatically over the years, with hits becoming more and more collaborative. 
-        The average proportion of songs hitting the top of the Billboard Hot 100 charts since 1958 by artists or bands who **<span style = 'color:#BDA373;'>did 
-        not write the song</span>**, **<span style = 'color:#55917F;'>solely wrote the song</span>**, 
-        or **<span style = 'color:#264653;'>wrote the song collaboratively with other songwriters</span>** is shown below.
+        <span style = 'font-size:11pt'><br>Songwriting credits on hits have changed dramatically over the years. 
+        The average proportion of songs hitting the top of the Billboard Hot 100 charts since 1958 by artists or 
+        bands who **<span style = 'color:#BDA373;'>did not write the song</span>**, **<span style = 'color:#55917F;'>
+        solely wrote the song</span>**, or **<span style = 'color:#264653;'>wrote the song collaboratively with 
+        other songwriters</span>** is shown below.
         </span>",
         caption = "Proportions represent rolling averages over 6 month periods, smoothed using a Dirichlet Generalised Additive Model (GAM).<br>
         Data source: Billboard Hot 100 Number Ones Database, compiled by Chris Dalla Riva. Data visualisation: Angus Hughes, Github: @awhug"
